@@ -1,0 +1,85 @@
+body {
+    background-image: url(images/bg-desktop.svg);
+    background-color: hsl(257, 40%, 49%);
+    background-size: cover;
+    color: white;
+    margin: 0px;
+
+}
+.logo {
+    height: 100px;
+    margin-left: 100px;
+    margin-top: 50px;
+    margin-bottom:70px ;
+}
+.image {
+    display: inline-block;
+    width: 800px;
+    margin-left: 100px;
+}
+.pic {
+    width: 100%;
+}
+.content {
+    display: inline-block;
+    width: 400px;
+    vertical-align: top;
+    margin-top: 28px;
+    margin-left: 60px;
+}
+h1  {
+    font-family:poppins;
+    font-weight: 600;
+}
+p {
+    font-size: 14px;
+    font-family: open sans;
+    font-weight: 400;
+    line-height: 33px;
+    margin-bottom: 30px;
+}
+button {
+    color: hsl(257, 40%, 49%);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 160px;
+    border-radius: 40px;
+    border: none;
+    font-size: 14px;
+    box-shadow: 0px 4px 10px rgba(0,0, 0,0.4);
+    cursor: pointer;
+}
+
+.facebook {
+    width:16px;
+    height:16px;
+}
+.twitter {
+    width:16px;
+    height: 16px;
+}
+.insta {
+    width:16px;
+    height: 16px;
+} 
+.container{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 70px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.res {
+    display: inline-block;
+}
+.circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 32px;
+    height: 32px;
+    border-color: white;
+    border:1px solid;
+    border-radius: 50%;
+    margin-left:16px;
+}
